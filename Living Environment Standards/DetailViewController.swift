@@ -11,7 +11,7 @@ import UIKit
 class DetailViewController: UIViewController {
 
     @IBOutlet weak var detailDescriptionLabel: UILabel!
-    var segueLabelText: String = ""
+    var segueLabelText: String = "" // create an empty string that will be updated with text passed by the segue
 
     var detailItem: AnyObject? {
         didSet {
